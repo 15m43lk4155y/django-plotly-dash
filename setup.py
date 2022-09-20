@@ -43,14 +43,12 @@ setup(
     install_requires = ['plotly',
                         'dash>=2.0',
                         'dpd-components',
-
-                        'dash-bootstrap-components<1',
-
-                        'channels<3.0',
+                        'dash-bootstrap-components',
+                        'channels',
                         'Django>=2.2,<4.0.0',
                         'Flask>=1.0.2',
                         'Werkzeug>=2.0,<2.1',
     ],
-    python_requires=">=3.8",
+    python_requires=">=3.7",
     )
 
